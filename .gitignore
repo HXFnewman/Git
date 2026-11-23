@@ -1,0 +1,49 @@
+# ---- 本地工具/IDE 数据 ----
+.workbuddy/
+.vscode/
+.idea/
+*.swp
+*~
+
+# ---- 操作系统 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ---- Node ----
+node_modules/
+npm-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# ---- C/C++ / 嵌入式 ----
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+Debug/
+Release/
+Objects/
+Listings/
+*.uvguix.*
+*.uvoptx
+
+# ---- 数据/临时文件 ----
+*.log
+*.tmp
+*.bak
+*.cache
+~$*
